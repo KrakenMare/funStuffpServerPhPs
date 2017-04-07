@@ -1,9 +1,9 @@
 <?php
 
  $DBUSER = 'root';
- $DBPASS = '';
+ $DBPASS = 'Arcanuo';
  $DBHOST = 'localhost';
- $DBNAME = 'rotmgUsers';
+ $DBNAME = 'rotmgprod';
  
  $conn = mysqli_connect($DBHOST, $DBUSER, $DBPASS, $DBNAME);
  
