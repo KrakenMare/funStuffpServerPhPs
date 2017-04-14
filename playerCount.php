@@ -2,6 +2,7 @@
 require_once 'db.php';
 
 function countPlayers() {
+$count = 0;
 $sql = "SELECT name FROM rotmgprod where accountInUse='1';
 $result = mysqli_query($conn, $sql);
 $count = 0;
